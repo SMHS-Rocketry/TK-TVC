@@ -15,6 +15,9 @@
 #include "SDCard.h"
 #include "VoltageDivider.h"
 
+// Figure out the orientation of the IMU sensor
+
+
 #define Y_SERVO_PIN 3               // Y Servo (y axis labeled on IMU) = Y Servo (labeled on pcb)
 #define Z_SERVO_PIN 2               // Z Servo (z axis labeled on IMU) = X Servo (labeled on pcb)
 

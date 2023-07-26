@@ -103,6 +103,7 @@ void Rocket::maxApogee() {
 }
 
 void Rocket::descent() {
+
   // Calculate flight time in s
   flightTime = (millis() - flightStartTime) / 1000.0f;
 
